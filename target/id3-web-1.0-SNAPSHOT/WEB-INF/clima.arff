@@ -1,0 +1,24 @@
+@relation clima
+
+@attribute Clima {Soleado, Nublado, Lluvia}
+@attribute Temperatura {Caluroso, Templado, Fresco}
+@attribute Humedad {Alto, Normal}
+@attribute Viento {Débil, Fuerte}
+@attribute Jugar {Sí, No}
+
+
+@data
+Soleado, Caluroso, Alto, Débil, No
+Soleado, Caluroso, Alto, Fuerte, No
+Nublado, Caluroso, Alto, Débil, Sí
+Lluvia, Templado, Alto, Débil, Sí
+Lluvia, Fresco, Normal, Débil, Sí
+Lluvia, Fresco, Normal, Fuerte, No
+Nublado, Fresco, Normal, Fuerte, Sí
+Soleado, Templado, Alto, Débil, No
+Soleado, Fresco, Normal, Débil, Sí
+Lluvia, Templado, Normal, Débil, Sí
+Soleado, Templado, Normal, Fuerte, Sí
+Nublado, Templado, Alto, Fuerte, Sí
+Nublado, Caluroso, Normal, Débil, Sí
+Lluvia, Templado, Alto, Fuerte, No

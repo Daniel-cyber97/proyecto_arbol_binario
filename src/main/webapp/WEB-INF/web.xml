@@ -1,0 +1,10 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>TreeServlet</servlet-name>
+        <servlet-class>com.ejemplo.id3.TreeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TreeServlet</servlet-name>
+        <url-pattern>/tree</url-pattern>
+    </servlet-mapping>
+</web-app>
